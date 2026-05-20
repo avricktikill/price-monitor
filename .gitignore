@@ -20,3 +20,6 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+# Excel/Word lock files (~$filename.xlsx) created while a doc is open
+~$*
