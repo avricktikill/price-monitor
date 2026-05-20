@@ -1,0 +1,37 @@
+# Products to monitor.
+#
+# Each entry needs:
+#   name       — anything you want to call this product
+#   url        — product page URL
+#   selector   — CSS selector that picks out the price element
+#   target_price (optional) — if current price <= target, the row is flagged
+#
+# Demo target is books.toscrape.com, a site built for scraping practice.
+# To track a real store, swap the URL + selector (and always check that
+# scraping is allowed by the site's robots.txt and terms).
+
+products:
+  - name: A Light in the Attic
+    url: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+    selector: p.price_color
+    target_price: 50.00
+
+  - name: Tipping the Velvet
+    url: https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+    selector: p.price_color
+    target_price: 50.00
+
+  - name: Soumission
+    url: https://books.toscrape.com/catalogue/soumission_998/index.html
+    selector: p.price_color
+    target_price: 45.00
+
+  - name: Sharp Objects
+    url: https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+    selector: p.price_color
+    target_price: 40.00
+
+  - name: Sapiens — A Brief History of Humankind
+    url: https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+    selector: p.price_color
+    target_price: 50.00

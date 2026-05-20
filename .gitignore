@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Generated artifacts — don't ship demo outputs in the repo
+**/report.html
+**/report.xlsx
+**/reviews_analyzed.csv
+**/history.csv
+**/sales_raw.xlsx
+**/sample_reviews.csv
+
+# OS / IDE noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
